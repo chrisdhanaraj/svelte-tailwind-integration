@@ -40,6 +40,10 @@ plugins: [
 ```
 
 **3. Add a \<style global> block that references Tailwind**
+
+In this example, I've added this block to the `src/App.svelte` component. 
+
+
 ```css
 <style global>
   /* purgecss start ignore */
