@@ -39,4 +39,15 @@ plugins: [
 ]
 ```
 
-**3. Done!**
+**3. Add a \<style global> block that references Tailwind**
+```css
+<style global>
+  /* purgecss start ignore */
+  @tailwind base;
+  @tailwind components;
+  /* purgecss end ignore */
+  @tailwind utilities;
+</style>
+```
+
+**4. Done!**
