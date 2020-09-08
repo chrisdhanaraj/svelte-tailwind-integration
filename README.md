@@ -56,6 +56,7 @@ plugins: [
 ```
 
 **3. Turn off the purge warnings for the build**
+
 Tailwind will warn that it's not purging anything and if you're doing it manually to turn it off in config. Well, we're doing in manually so...
 
 **3. Done!**
