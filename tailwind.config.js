@@ -1,3 +1,3 @@
 module.exports = {
-  purge: false,
+  purge: ["./src/**/*.svelte"],
 };
