@@ -5,13 +5,14 @@ Hi! This is a quick repo demonstration to how to quickly and painlessly integrat
 # Steps
 
 **Add Dependencies**
-`yarn install -D tailwindcss autoprefixer @fullhuman/postcss-purgecss`svelte-preprocess`
+
+`yarn install -D tailwindcss autoprefixer svelte-preprocess @fullhuman/postcss-purgecss`
 
 **Setup rollup config**
+
 Check out the `rollup.config.js` for the full setup, but it's just plucked from the tailwindcss Getting Started walkthrough!
 
-1. Add the following blocks into your rollup.config
-
+**1. Add the following blocks into your rollup.config**
 ```
 const purgecss = require("@fullhuman/postcss-purgecss")({
   content: ["./src/**/*.svelte"],
@@ -40,7 +41,7 @@ const preprocess = sveltePreprocess({
 });
 ```
 
-2. Add `preprocess` into the `svelte` rollup plugin
+**2. Add `preprocess` into the `svelte` rollup plugin**
 
 
 ```
@@ -52,4 +53,4 @@ plugins: [
 ]
 ```
 
-3. Done! 
+**3. Done!**
