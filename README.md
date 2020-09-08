@@ -2,6 +2,8 @@
 
 Hi! This is a quick repo demonstration to how to quickly and painlessly integrate Tailwind into the Svelte pipeline, no additional scripts required! The main concept is that you'll need to leverage the postcss plugins that Tailwind uses directly, instead of relying on the Tailwind CLI. 
 
+Then, use a `global` style block to import in Tailwind postcss plugins (check out src/App.svelte) to bring in Tailwind in!
+
 # Steps
 
 **Add Dependencies**
