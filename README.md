@@ -41,7 +41,11 @@ plugins: [
 
 **3. Add a \<style global> block that references Tailwind**
 
-In this example, I've added this block to the `src/App.svelte` component. 
+In this example, I've added this block to the `src/App.svelte` component.  
+
+## **Important**
+
+In an actual app, put this block in a file that will not change. Tailwind has relatively fast incremental builds, but the initial build goes through the entire 3mb+ worth of Tailwind CSS and is quite slow.
 
 
 ```css
