@@ -8,7 +8,7 @@ Then, use a `global` style block to import in Tailwind postcss plugins (check ou
 
 **Add Dependencies**
 
-`yarn install -D tailwindcss autoprefixer svelte-preprocess`
+`yarn add -D tailwindcss autoprefixer svelte-preprocess`
 
 **Setup rollup config**
 
