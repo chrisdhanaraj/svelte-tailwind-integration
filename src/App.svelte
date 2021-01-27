@@ -2,7 +2,7 @@
   export let name;
 </script>
 
-<style global>
+<style global lang="postcss">
   /* purgecss start ignore */
   @tailwind base;
   @tailwind components;
